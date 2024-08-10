@@ -1,7 +1,7 @@
 % Implementing Gaussian Filter
 clc;
 close all;
-img=imread("Lena_Monochrome.jpg");
+img=imread("../Images/Lena_Monochrome.jpg");
 % img=rgb2gray(img); Only use if we want to denoise the coloured img
 noised_Img = imnoise(img,'salt & pepper');
 % Applying Mean Filter 
