@@ -1,6 +1,6 @@
 %% Median filter
 % original image
-my_img=imread('Lena_Monochrome.jpg');
+my_img=imread('../Images/Lena_Monochrome.jpg');
 subplot(1,4,1); imshow(my_img); title('My Original Image');
 % salt & pepper
 %ig=rgb2gray(my_img);
